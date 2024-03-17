@@ -11,7 +11,6 @@ def convert_to_complete_hangul(text):
 
 
 if __name__ == '__main__':
-    # text_combination = "2024 제1회 한국컴퓨터비전학회 연구자 포럼_update"
     text_combination = input("변환할 텍스트를 입력하세요: ")
     text_complete = convert_to_complete_hangul(text_combination)
     print(text_complete)
